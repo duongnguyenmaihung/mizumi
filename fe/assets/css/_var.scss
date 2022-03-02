@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/font-web/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/font-web/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/font-web/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/font-web/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'oliver quin';
+    src: url('../fonts/font-web/oliverquin-Regular.woff2') format('woff2'),
+        url('../fonts/font-web/oliverquin-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+$cl-white: #fff;
+$cl-black: #000;
+$cl-yellow: #E3CA83;
+$font-body: 'Montserrat';
+$font-heading: 'oliver quin';
+.ff-heading{
+	font-family: $font-body;
+	font-weight: bold;
+}
+.ff-heading_light{
+	font-family: $font-body;
+}
+.ff-sub_heading{
+	font-family: $font-heading;
+}
+
+.fs-12{
+	font-size: 12px;
+}
+.fs-14{
+	font-size: 14px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-18{
+	font-size: 18px;
+}
+.fs-35{
+	font-size: 35px;
+}
+.fs-40{
+	font-size: 40px;
+}
+.fs-50{
+	font-size: 50px;
+}
+.fs-60{
+	font-size: 60px;
+}
+.fs-70{
+    font-size: 70px;
+}
+.fs-80{
+	font-size: 80px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-24{
+	font-size: 24px;
+}
+.fs-16{
+	font-size: 16px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+	font-size: 12px;
+}
+.cl-white{
+	color: $cl-white;
+}
+.cl-yellow{
+	color: $cl-yellow;
+}
+.pt-200{
+	padding-top: 200px;
+}
+.pb-100{
+	padding-bottom: 100px;
+}
+.pt-100{
+	padding-top: 100px;
+}
+.pt-250{
+	padding-top: 250px;
+}
+.pb-50{
+	padding-bottom: 50px;
+}
+.spin_circle {
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
